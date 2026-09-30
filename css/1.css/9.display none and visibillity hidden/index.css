@@ -1,0 +1,7 @@
+/* #ball{
+    display: none;
+} */
+
+#ball{
+    visibility: hidden;
+}

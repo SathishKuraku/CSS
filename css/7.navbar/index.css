@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 44px;
+    background: gray;
+    width: 100%;
+
+}
+.nav-subcontainer {
+    height: inherit;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.elements{
+    color: black;
+    font-size: 12px;
+}

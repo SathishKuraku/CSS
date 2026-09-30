@@ -1,0 +1,37 @@
+div{
+    height: 200px;
+    width: 200px;
+    
+    border-top: 50px solid red;
+    border-left:50px solid yellow;
+    border-right: 50px solid blue;
+    border-bottom: 50px solid #34A853;
+    border-radius: 50%;
+    position: relative;
+    
+
+}
+
+div::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    transform: rotate(40deg);
+    bottom: 120px;
+    left: 170px;
+    
+} 
+
+
+div::after{
+    content: "";
+    position: absolute;
+    bottom: 76px;
+    left:100px;
+    width: 147px;
+    height: 49px;
+    background:blue;
+
+} 
